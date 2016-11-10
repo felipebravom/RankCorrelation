@@ -25,10 +25,10 @@ License=GPL 3.0
 Description=Provides rank correlation coefficient metrics Kendall tau and Spearman rho for evaluating regression schemes in WEKA. 
 
 # Package URL for obtaining the package archive (required)
-PackageURL=https://github.com/felipebravom/weets
+PackageURL=https://github.com/felipebravom/RankCorrelation
 
 # URL for further information
-URL=https://github.com/felipebravom/AffectiveTweets
+URL=https://github.com/felipebravom/RankCorrelation/raw/master/releases/download/1.0/RankCorrelation.zip
 
 # Related to other packages?
 #Related=
