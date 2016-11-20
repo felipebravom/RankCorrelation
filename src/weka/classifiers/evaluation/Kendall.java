@@ -118,7 +118,7 @@ public class Kendall extends AbstractEvaluationMetric implements StandardEvaluat
 	      throw new UnknownStatisticException("Statistic " + name + " is unknown.");
 	    }
 	    	    
-	    ArrayList<Prediction> pred=this.m_baseEvaluation.m_Predictions;
+	    ArrayList<Prediction> pred=this.m_baseEvaluation.predictions();
 	    double [] predictedVals=new double[pred.size()];
 	    double [] actualVals=new double[pred.size()];
 	    

@@ -120,7 +120,8 @@ public class Spearman extends AbstractEvaluationMetric implements StandardEvalua
 	    }
 	    
 	    
-	    ArrayList<Prediction> pred=this.m_baseEvaluation.m_Predictions;
+	    
+	    ArrayList<Prediction> pred=this.m_baseEvaluation.predictions();
 	    double [] predictedVals=new double[pred.size()];
 	    double [] actualVals=new double[pred.size()];
 	    
