@@ -6,5 +6,5 @@ The implementation is taken from the Fantail project: http://fantail.quansun.com
 Run the following command using WEKA 3.8:
 
 ```bash
-java -cp weka.jar weka.core.WekaPackageManager -install-package https://github.com/felipebravom/RankCorrelation/raw/master/releases/download/1.0/RankCorrelation.zip
+java -cp weka.jar weka.core.WekaPackageManager -install-package RankCorrelation
 ```
